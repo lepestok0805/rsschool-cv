@@ -31,6 +31,8 @@ console.log("Hello world");
 
 ## **Experience**:
 
-> I am taking course on rss
+- [My CV](https://lepestok0805.github.io/rsschool-cv/cv)
 
-[My CV](https://lepestok0805.github.io/rsschool-cv/cv)
+## **Courses:**
+
+I am taking course on rss
