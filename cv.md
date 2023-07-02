@@ -1,4 +1,4 @@
-# **Hanna Koiro**
+# **Anna Koiro**
 
 ### Trainee front-end developer
 
@@ -36,3 +36,9 @@ console.log("Hello world");
 ## **Courses:**
 
 I am taking course on rss
+
+## **Languages**
+
+- english - B1
+- russian - native
+- bellorussian - native
