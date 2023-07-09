@@ -1,100 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="AK.png">
-    <title>Anna Koiro CV</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anna Koiro CV</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Montserrat:wght@700&display=swap"
+    rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5b68d5">
+  <link rel="shortcut icon" href="favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="msapplication-config" content="favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <div class="site-container">
     <header class="header">
-      <div class="conteiner"></div>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#contacts" class="nav-link">Contacts</a>
-          </li>
-          <li class="nav-item">
-            <a href="#summary" class="nav-link">Summary</a>
-          </li>
-          <li class="nav-item">
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a href="#progects" class="nav-link">Progects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#education" class="nav-link">Education</a>
-          </li>
-          <li class="nav-item">
-            <a href="#language" class="nav-link">languages</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="header__container container">
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link" href="#contacts"> Contacts </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#summary"> Summary </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#skills"> Skills </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#projects"> Projects </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#education"> Education </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#languages"> Languages </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main class="section" class="main-container">
-      <section class="section" id="profile"></section>
-      <img src="2023-07-06 07.27.08.jpg" alt="my photo" />
-      <h1><em>Anna Koiro</em></h1>
-      <p><em>Trainee front-end developer</em></p>
-      <hr />
-      <h2 id="contacts"><u>Contacts:</u></h2>
-      <p>
-        <ul>
-            <li>
-                Phone: +375336701345 
+    <main class="main">
+      <section class="hero section">
+        <div class="hero__container container">
+          <img class="hero__image" src="img/avatar.jpg" alt="Anna Koiro photo" width="600" height="600">
+          <div class="hero__block">
+            <h1 class="hero__title h1">Anna Koiro</h1>
+            <p class="hero__subtitle">Trainee front-end developer</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts section" id="contacts">
+        <div class="contacts__container container">
+          <h2 class="contacts__title h2">Contacts</h2>
+          <ul class="contacts__list list">
+            <li class="contacts__item">Phone: +375336701345</li>
+            <li class="contacts__item">Email: lepestok0805@mail.ru</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="summary section" id="summary">
+        <div class="summary__container container">
+          <h2 class="summary__title h2">Summary</h2>
+          <p class="summary__text text">
+            I am a trainee front-end developer. My knowledge of HTML, CSS, git
+            and bootstrap is basic. My education is not related to
+            programming. I am sales manager.
+          </p>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <div class="skills__container container">
+          <h2 class="skills__title h2">Skills</h2>
+          <ul class="skills__list list">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">Git</li>
+            <li class="skills__item">Bootstrap</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="code section" id="code">
+        <div class="code__container container">
+          <h2 class="code__title h2">code</h2>
+          <pre class="code__console">
+<code>console.log("Hello world");</code>
+         </pre>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="projects__container container">
+          <h2 class="projects__title h2">projects</h2>
+          <ul class="projects__list list">
+            <li class="projects__item">
+              <a class="projects__link link" href="https://github.com/lepestok0805/rsschool-cv">
+                My CV
+              </a>
             </li>
-            <li>
-                Email: lepestok0805@mail.ru
-            </li>
-        </ul>
-        </p>
-      <hr />
-      <h3 id="summary"><u>Summary:</u></h3>
-      <p>I am a trainee front-end developer. My knowledge of HTML, CSS, git and bootstrap is basic.
-        My education is not related to programming. I am sales manager.</p>
-      <hr />
-      <h4 id="skills"><u>Skills:</u></h4>
-      <p><ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Git</li>
-        <li>Bootstrap</li>
-      </ul></p>
-      <hr />
-      <h5 id="code"><u>Code</u></h5>
-        <p>```js</p>
-        <p>console.log("Hello world");</p>
-        <p>```</p>
-      <hr>
-      <h6 id="progect"><u>Progect:</u></h6>
-      <p>My CV</p>
-      <p><a href="#">https://github.com/lepestok0805/rsschool-cv</a></p>
-      <hr />
-      <h7 id="education"><u>Education:</u></h7>
-      <p>Vitebsk Technological University</p>
-      <hr />
-      <h8 id="languages"><u>Languages:</u></h8>
-      <p>
-        <ul>
-            <li>Russian: Native</li>
-            <li>English: Basic level</li>
-        </ul>
-      </p>
-      <hr />
-      <div class="container"></div>
+          </ul>
+        </div>
+      </section>
+
+      <section class="education section" id="education">
+        <div class="education__container container">
+          <h2 class="education__title h2">education</h2>
+          <ul class="education__list list">
+            <li class="education__item">Vitebsk Technological University</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="languages section" id="languages">
+        <div class="languages__container container">
+          <h2 class="languages__title h2">languages</h2>
+          <ul class="languages__list list">
+            <li class="languages__item">Russian: Native</li>
+            <li class="languages__item">English: A2</li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <footer>
-        <p>2023 Github: <a href="#">https://github.com/lepestok0805/rsschool-cv </a>
-        <img src="https://rs.school/images/rs_school_js.svg" alt="logo">
-        </p>
+    <footer class="footer">
+      <div class="footer__container container">
+        <a class="footer__logo" href="https://github.com/lepestok0805?tab=repositories" target="_blank">
+          <img src="img/github.svg" alt="rss" width="100" height="100" loading="lazy">
+        </a>
+        <p class="copyright">2023</p>
+        <a class="footer__logo" href="https://rs.school/js/" target="_blank">
+          <img src="https://rs.school/images/rs_school_js.svg" alt="rss" width="100" height="100" loading="lazy">
+        </a>
+      </div>
     </footer>
-  </body>
+  </div>
+</body>
+
 </html>
